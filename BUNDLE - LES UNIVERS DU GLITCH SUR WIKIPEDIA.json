@@ -1,0 +1,5062 @@
+{
+	"title": "LES UNIVERS DU GLITCH SUR WIKIPEDIA",
+	"authors": [],
+	"bundleVersion": "0.1alpha",
+	"consolidated": true,
+	"date": "2019-03-10",
+	"defaultNodeColor": "seed",
+	"defaultNodeSize": "level",
+	"description": "Dans le cadre du projet Algoglitch, on regarde les liens entre l'article Glitch sur Wikipedia EN et les autres articles grâce au paragraphe See Also.",
+	"edgeAttributes": [],
+	"nodeAttributes": [
+		{
+			"id": "modularity-class",
+			"name": "Communauté",
+			"count": 137,
+			"type": "partition",
+			"integer": true,
+			"min": 0,
+			"max": 9,
+			"areaScaling": {
+				"min": 10,
+				"max": 100,
+				"interpolation": "linear"
+			},
+			"data": {},
+			"modalities": [
+				{
+					"value": "4",
+					"count": 28,
+					"color": "rgb(194, 195, 112)",
+					"$$hashKey": "object:78"
+				},
+				{
+					"value": "2",
+					"count": 19,
+					"color": "rgb(188, 163, 233)",
+					"$$hashKey": "object:79"
+				},
+				{
+					"value": "0",
+					"count": 18,
+					"color": "rgb(94, 218, 166)",
+					"$$hashKey": "object:80"
+				},
+				{
+					"value": "6",
+					"count": 17,
+					"color": "rgb(231, 150, 210)",
+					"$$hashKey": "object:81"
+				},
+				{
+					"value": "8",
+					"count": 15,
+					"color": "rgb(150, 206, 137)",
+					"$$hashKey": "object:82"
+				},
+				{
+					"value": "7",
+					"count": 14,
+					"color": "rgb(235, 141, 152)",
+					"$$hashKey": "object:83"
+				},
+				{
+					"value": "1",
+					"count": 7,
+					"color": "rgb(102, 228, 225)",
+					"$$hashKey": "object:84"
+				},
+				{
+					"value": "9",
+					"count": 7,
+					"color": "rgb(223, 165, 112)",
+					"$$hashKey": "object:85"
+				},
+				{
+					"value": "3",
+					"count": 6,
+					"color": "rgb(118, 185, 230)",
+					"$$hashKey": "object:86"
+				},
+				{
+					"value": "5",
+					"count": 6,
+					"color": "rgb(106, 198, 174)",
+					"$$hashKey": "object:87"
+				}
+			]
+		},
+		{
+			"id": "indegree",
+			"name": "Indegree",
+			"count": 137,
+			"type": "ranking-size",
+			"integer": true,
+			"min": 1,
+			"max": 10,
+			"areaScaling": {
+				"min": 5,
+				"max": 100,
+				"interpolation": "linear"
+			},
+			"data": {}
+		},
+		{
+			"id": "outdegree",
+			"name": "Outdegree",
+			"count": 137,
+			"type": "ranking-size",
+			"integer": true,
+			"min": 0,
+			"max": 16,
+			"areaScaling": {
+				"min": 10,
+				"max": 100,
+				"interpolation": "linear"
+			},
+			"data": {}
+		},
+		{
+			"id": "degree",
+			"name": "Degree",
+			"count": 137,
+			"type": "ranking-size",
+			"integer": true,
+			"min": 1,
+			"max": 26,
+			"areaScaling": {
+				"min": 10,
+				"max": 100,
+				"interpolation": "linear"
+			},
+			"data": {}
+		}
+	],
+	"graph_settings": {
+		"type": "directed",
+		"multi": false
+	},
+	"g": {
+		"attributes": {
+			"creator": "Gephi 0.9",
+			"description": "",
+			"lastModifiedDate": "2019-03-10"
+		},
+		"nodes": [
+			{
+				"key": "glitch",
+				"attributes": {
+					"label": "Glitch",
+					"level": 0,
+					"seed": true,
+					"modularity-class": 0,
+					"indegree": 3,
+					"outdegree": 5,
+					"degree": 8,
+					"color": "rgb(0,196,255)",
+					"size": 26,
+					"x": 521.62634,
+					"y": -351.59155
+				}
+			},
+			{
+				"key": "glitch art",
+				"attributes": {
+					"label": "Glitch art",
+					"level": 1,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 3,
+					"outdegree": 9,
+					"degree": 12,
+					"color": "rgb(0,196,255)",
+					"size": 38,
+					"x": 630.17456,
+					"y": -538.0956
+				}
+			},
+			{
+				"key": "glitch removal",
+				"attributes": {
+					"label": "Glitch removal",
+					"level": 1,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 9,
+					"outdegree": 7,
+					"degree": 16,
+					"color": "rgb(223,137,255)",
+					"size": 50,
+					"x": -812.1599,
+					"y": 15.304621
+				}
+			},
+			{
+				"key": "glitching",
+				"attributes": {
+					"label": "Glitching",
+					"level": 1,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 2,
+					"outdegree": 2,
+					"degree": 4,
+					"color": "rgb(0,196,255)",
+					"size": 14,
+					"x": 480.7036,
+					"y": -356.4946
+				}
+			},
+			{
+				"key": "hazard (logic)",
+				"attributes": {
+					"label": "Hazard (logic)",
+					"level": 1,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 3,
+					"outdegree": 2,
+					"degree": 5,
+					"color": "rgb(76,70,62)",
+					"size": 17,
+					"x": 1292.114,
+					"y": 762.5677
+				}
+			},
+			{
+				"key": "software bug",
+				"attributes": {
+					"label": "Software bug",
+					"level": 1,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 2,
+					"outdegree": 8,
+					"degree": 10,
+					"color": "rgb(115,192,0)",
+					"size": 32,
+					"x": -272.81195,
+					"y": 1318.1497
+				}
+			},
+			{
+				"key": "anti-pattern",
+				"attributes": {
+					"label": "Anti-pattern",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 7,
+					"outdegree": 5,
+					"degree": 12,
+					"color": "rgb(115,192,0)",
+					"size": 38,
+					"x": -762.21606,
+					"y": 1482.0212
+				}
+			},
+			{
+				"key": "bug bounty program",
+				"attributes": {
+					"label": "Bug bounty program",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 1,
+					"indegree": 3,
+					"outdegree": 6,
+					"degree": 9,
+					"color": "rgb(0,189,148)",
+					"size": 29,
+					"x": -631.6273,
+					"y": 2810.822
+				}
+			},
+			{
+				"key": "iso/iec 9126",
+				"attributes": {
+					"label": "ISO/IEC 9126",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 3,
+					"indegree": 3,
+					"outdegree": 5,
+					"degree": 8,
+					"color": "rgb(192,192,192)",
+					"size": 26,
+					"x": -1956.0271,
+					"y": 1592.14
+				}
+			},
+			{
+				"key": "racetrack problem",
+				"attributes": {
+					"label": "Racetrack problem",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 2,
+					"outdegree": 5,
+					"degree": 7,
+					"color": "rgb(76,70,62)",
+					"size": 23,
+					"x": 1232.5256,
+					"y": 1727.5831
+				}
+			},
+			{
+				"key": "software defect indicator",
+				"attributes": {
+					"label": "Software defect indicator",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 1,
+					"outdegree": 6,
+					"degree": 7,
+					"color": "rgb(115,192,0)",
+					"size": 23,
+					"x": 111.10182,
+					"y": 1067.7522
+				}
+			},
+			{
+				"key": "software regression",
+				"attributes": {
+					"label": "Software regression",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(115,192,0)",
+					"size": 8,
+					"x": -375.64325,
+					"y": 1268.8223
+				}
+			},
+			{
+				"key": "software rot",
+				"attributes": {
+					"label": "Software rot",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 7,
+					"outdegree": 5,
+					"degree": 12,
+					"color": "rgb(115,192,0)",
+					"size": 38,
+					"x": -503.42993,
+					"y": 1178.4993
+				}
+			},
+			{
+				"key": "code smell",
+				"attributes": {
+					"label": "Code smell",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 3,
+					"outdegree": 3,
+					"degree": 6,
+					"color": "rgb(115,192,0)",
+					"size": 20,
+					"x": -668.6442,
+					"y": 1374.5969
+				}
+			},
+			{
+				"key": "dependency hell",
+				"attributes": {
+					"label": "Dependency hell",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(115,192,0)",
+					"size": 5,
+					"x": -391.1358,
+					"y": 1945.4253
+				}
+			},
+			{
+				"key": "software bloat",
+				"attributes": {
+					"label": "Software bloat",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 2,
+					"outdegree": 1,
+					"degree": 3,
+					"color": "rgb(115,192,0)",
+					"size": 11,
+					"x": -577.9097,
+					"y": 930.80725
+				}
+			},
+			{
+				"key": "software brittleness",
+				"attributes": {
+					"label": "Software brittleness",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 2,
+					"outdegree": 2,
+					"degree": 4,
+					"color": "rgb(115,192,0)",
+					"size": 14,
+					"x": -374.53293,
+					"y": 996.8561
+				}
+			},
+			{
+				"key": "software entropy",
+				"attributes": {
+					"label": "Software entropy",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 2,
+					"outdegree": 3,
+					"degree": 5,
+					"color": "rgb(115,192,0)",
+					"size": 17,
+					"x": -494.18933,
+					"y": 1038.6211
+				}
+			},
+			{
+				"key": "design smell",
+				"attributes": {
+					"label": "Design smell",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 2,
+					"outdegree": 3,
+					"degree": 5,
+					"color": "rgb(115,192,0)",
+					"size": 17,
+					"x": -709.5355,
+					"y": 1394.104
+				}
+			},
+			{
+				"key": "cyclomatic complexity",
+				"attributes": {
+					"label": "Cyclomatic complexity",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 2,
+					"outdegree": 4,
+					"degree": 6,
+					"color": "rgb(115,192,0)",
+					"size": 20,
+					"x": 308.03247,
+					"y": 899.766
+				}
+			},
+			{
+				"key": "computer program",
+				"attributes": {
+					"label": "Computer program",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 2,
+					"outdegree": 1,
+					"degree": 3,
+					"color": "rgb(115,192,0)",
+					"size": 11,
+					"x": 96.93936,
+					"y": 1265.2977
+				}
+			},
+			{
+				"key": "computer programming",
+				"attributes": {
+					"label": "Computer programming",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 2,
+					"outdegree": 0,
+					"degree": 2,
+					"color": "rgb(115,192,0)",
+					"size": 8,
+					"x": 46.789753,
+					"y": 537.1469
+				}
+			},
+			{
+				"key": "control flow",
+				"attributes": {
+					"label": "Control flow",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 4,
+					"outdegree": 1,
+					"degree": 5,
+					"color": "rgb(115,192,0)",
+					"size": 17,
+					"x": 529.18744,
+					"y": 599.0825
+				}
+			},
+			{
+				"key": "software engineering",
+				"attributes": {
+					"label": "Software engineering",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 2,
+					"outdegree": 0,
+					"degree": 2,
+					"color": "rgb(115,192,0)",
+					"size": 8,
+					"x": 337.94238,
+					"y": 1138.8239
+				}
+			},
+			{
+				"key": "software peter principle",
+				"attributes": {
+					"label": "Software Peter principle",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(115,192,0)",
+					"size": 8,
+					"x": -1045.3707,
+					"y": 1417.7134
+				}
+			},
+			{
+				"key": "capability immaturity model",
+				"attributes": {
+					"label": "Capability Immaturity Model",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 2,
+					"outdegree": 2,
+					"degree": 4,
+					"color": "rgb(115,192,0)",
+					"size": 14,
+					"x": -868.7472,
+					"y": 1647.1979
+				}
+			},
+			{
+				"key": "iso 29110",
+				"attributes": {
+					"label": "ISO 29110",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 2,
+					"indegree": 2,
+					"outdegree": 2,
+					"degree": 4,
+					"color": "rgb(115,192,0)",
+					"size": 14,
+					"x": -797.0198,
+					"y": 1628.0172
+				}
+			},
+			{
+				"key": "race condition",
+				"attributes": {
+					"label": "Race Condition",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 4,
+					"outdegree": 7,
+					"degree": 11,
+					"color": "rgb(76,70,62)",
+					"size": 35,
+					"x": 1423.7657,
+					"y": 1600.7509
+				}
+			},
+			{
+				"key": "concurrency control",
+				"attributes": {
+					"label": "Concurrency control",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 3,
+					"outdegree": 1,
+					"degree": 4,
+					"color": "rgb(76,70,62)",
+					"size": 14,
+					"x": 1306.6669,
+					"y": 1952.727
+				}
+			},
+			{
+				"key": "deadlock",
+				"attributes": {
+					"label": "Deadlock",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 2,
+					"outdegree": 3,
+					"degree": 5,
+					"color": "rgb(76,70,62)",
+					"size": 17,
+					"x": 1727.0273,
+					"y": 1433.2797
+				}
+			},
+			{
+				"key": "synchronization",
+				"attributes": {
+					"label": "Synchronization",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 1,
+					"outdegree": 2,
+					"degree": 3,
+					"color": "rgb(76,70,62)",
+					"size": 11,
+					"x": 1214.6798,
+					"y": 2576.228
+				}
+			},
+			{
+				"key": "therac-25",
+				"attributes": {
+					"label": "Therac-25",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(76,70,62)",
+					"size": 5,
+					"x": 896.86676,
+					"y": 1670.0593
+				}
+			},
+			{
+				"key": "linearizability",
+				"attributes": {
+					"label": "Linearizability",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 4,
+					"outdegree": 1,
+					"degree": 5,
+					"color": "rgb(76,70,62)",
+					"size": 17,
+					"x": 1544.95,
+					"y": 1735.6428
+				}
+			},
+			{
+				"key": "synchronization (computer science)",
+				"attributes": {
+					"label": "Synchronization (computer science)",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 2,
+					"outdegree": 0,
+					"degree": 2,
+					"color": "rgb(76,70,62)",
+					"size": 8,
+					"x": 1520.8116,
+					"y": 1473.4983
+				}
+			},
+			{
+				"key": "time of check to time of use",
+				"attributes": {
+					"label": "Time of check to time of use",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 2,
+					"outdegree": 1,
+					"degree": 3,
+					"color": "rgb(76,70,62)",
+					"size": 11,
+					"x": 1508.1669,
+					"y": 1697.192
+				}
+			},
+			{
+				"key": "iso 9000",
+				"attributes": {
+					"label": "ISO 9000",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 3,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(192,192,192)",
+					"size": 8,
+					"x": -2242.4634,
+					"y": 2053.7131
+				}
+			},
+			{
+				"key": "verification and validation",
+				"attributes": {
+					"label": "Verification and Validation",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 3,
+					"indegree": 2,
+					"outdegree": 0,
+					"degree": 2,
+					"color": "rgb(192,192,192)",
+					"size": 8,
+					"x": -2685.5977,
+					"y": 1474.0696
+				}
+			},
+			{
+				"key": "non-functional requirement",
+				"attributes": {
+					"label": "Non-functional requirement",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 3,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(192,192,192)",
+					"size": 8,
+					"x": -1913.72,
+					"y": 1390.0244
+				}
+			},
+			{
+				"key": "squale",
+				"attributes": {
+					"label": "Squale",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 3,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(192,192,192)",
+					"size": 8,
+					"x": -1906.7412,
+					"y": 1599.7565
+				}
+			},
+			{
+				"key": "iso/iec jtc 1/sc 7",
+				"attributes": {
+					"label": "ISO/IEC JTC 1/SC 7",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 3,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(192,192,192)",
+					"size": 5,
+					"x": -1953.2928,
+					"y": 1824.0886
+				}
+			},
+			{
+				"key": "filter capacitor",
+				"attributes": {
+					"label": "Filter capacitor",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(223,137,255)",
+					"size": 8,
+					"x": -787.37103,
+					"y": 63.793205
+				}
+			},
+			{
+				"key": "operand isolation",
+				"attributes": {
+					"label": "Operand isolation",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 3,
+					"outdegree": 2,
+					"degree": 5,
+					"color": "rgb(223,137,255)",
+					"size": 17,
+					"x": -841.1782,
+					"y": -44.67914
+				}
+			},
+			{
+				"key": "cpu power dissipation",
+				"attributes": {
+					"label": "CPU power dissipation",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 6,
+					"outdegree": 16,
+					"degree": 22,
+					"color": "rgb(223,137,255)",
+					"size": 68,
+					"x": -954.501,
+					"y": -326.10696
+				}
+			},
+			{
+				"key": "dynamic voltage scaling",
+				"attributes": {
+					"label": "Dynamic voltage scaling",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 8,
+					"outdegree": 6,
+					"degree": 14,
+					"color": "rgb(223,137,255)",
+					"size": 44,
+					"x": -1195.2921,
+					"y": -24.963783
+				}
+			},
+			{
+				"key": "clock gating",
+				"attributes": {
+					"label": "Clock gating",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 4,
+					"outdegree": 4,
+					"degree": 8,
+					"color": "rgb(223,137,255)",
+					"size": 26,
+					"x": -993.0706,
+					"y": 11.835191
+				}
+			},
+			{
+				"key": "bus encoding",
+				"attributes": {
+					"label": "Bus encoding",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 1,
+					"outdegree": 5,
+					"degree": 6,
+					"color": "rgb(223,137,255)",
+					"size": 20,
+					"x": -664.537,
+					"y": -39.75376
+				}
+			},
+			{
+				"key": "rechargeable battery",
+				"attributes": {
+					"label": "Rechargeable battery",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 5,
+					"indegree": 2,
+					"outdegree": 5,
+					"degree": 7,
+					"color": "rgb(192,192,192)",
+					"size": 23,
+					"x": -2848.8955,
+					"y": -630.9202
+				}
+			},
+			{
+				"key": "battery pack",
+				"attributes": {
+					"label": "Battery pack",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 5,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(192,192,192)",
+					"size": 5,
+					"x": -3233.5432,
+					"y": -682.7103
+				}
+			},
+			{
+				"key": "comparison of battery types",
+				"attributes": {
+					"label": "Comparison of battery types",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 5,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(192,192,192)",
+					"size": 5,
+					"x": -2875.0051,
+					"y": -502.2386
+				}
+			},
+			{
+				"key": "energy storage",
+				"attributes": {
+					"label": "Energy storage",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 5,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(192,192,192)",
+					"size": 5,
+					"x": -2471.7554,
+					"y": -914.14813
+				}
+			},
+			{
+				"key": "metal–air electrochemical cell",
+				"attributes": {
+					"label": "Metal–air electrochemical cell",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 5,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(192,192,192)",
+					"size": 5,
+					"x": -2864.8125,
+					"y": -677.58075
+				}
+			},
+			{
+				"key": "search for the super battery (film)",
+				"attributes": {
+					"label": "Search for the Super Battery (film)",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 5,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(192,192,192)",
+					"size": 8,
+					"x": -2973.15,
+					"y": -645.5596
+				}
+			},
+			{
+				"key": "gray code addressing",
+				"attributes": {
+					"label": "Gray code addressing",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(223,137,255)",
+					"size": 5,
+					"x": -273.85657,
+					"y": 228.01984
+				}
+			},
+			{
+				"key": "low power electronics",
+				"attributes": {
+					"label": "Low power electronics",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 1,
+					"outdegree": 14,
+					"degree": 15,
+					"color": "rgb(223,137,255)",
+					"size": 47,
+					"x": -786.90674,
+					"y": -166.825
+				}
+			},
+			{
+				"key": "green computing",
+				"attributes": {
+					"label": "Green computing",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 6,
+					"outdegree": 1,
+					"degree": 7,
+					"color": "rgb(223,137,255)",
+					"size": 23,
+					"x": -271.85245,
+					"y": -443.87418
+				}
+			},
+			{
+				"key": "power gating",
+				"attributes": {
+					"label": "Power gating",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 5,
+					"outdegree": 2,
+					"degree": 7,
+					"color": "rgb(223,137,255)",
+					"size": 23,
+					"x": -1238.4298,
+					"y": -88.29488
+				}
+			},
+			{
+				"key": "dynamic frequency scaling",
+				"attributes": {
+					"label": "Dynamic frequency scaling",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 8,
+					"outdegree": 2,
+					"degree": 10,
+					"color": "rgb(223,137,255)",
+					"size": 32,
+					"x": -1135.7925,
+					"y": 144.03902
+				}
+			},
+			{
+				"key": "autonomous peripheral operation",
+				"attributes": {
+					"label": "Autonomous peripheral operation",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 5,
+					"outdegree": 4,
+					"degree": 9,
+					"color": "rgb(223,137,255)",
+					"size": 29,
+					"x": -1065.5823,
+					"y": -207.23898
+				}
+			},
+			{
+				"key": "power–delay product",
+				"attributes": {
+					"label": "Power–delay product",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 3,
+					"outdegree": 0,
+					"degree": 3,
+					"color": "rgb(223,137,255)",
+					"size": 11,
+					"x": -1454.2018,
+					"y": 59.909374
+				}
+			},
+			{
+				"key": "energy–delay product",
+				"attributes": {
+					"label": "Energy–delay product",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 3,
+					"outdegree": 0,
+					"degree": 3,
+					"color": "rgb(223,137,255)",
+					"size": 11,
+					"x": -1414.8922,
+					"y": 18.937126
+				}
+			},
+			{
+				"key": "switched-mode power supply applications",
+				"attributes": {
+					"label": "Switched-mode power supply applications",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 3,
+					"outdegree": 0,
+					"degree": 3,
+					"color": "rgb(223,137,255)",
+					"size": 11,
+					"x": -2048.629,
+					"y": 207.51483
+				}
+			},
+			{
+				"key": "switching energy",
+				"attributes": {
+					"label": "Switching energy",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 3,
+					"outdegree": 0,
+					"degree": 3,
+					"color": "rgb(223,137,255)",
+					"size": 11,
+					"x": -1468.9012,
+					"y": -6.9074965
+				}
+			},
+			{
+				"key": "advanced configuration and power interface",
+				"attributes": {
+					"label": "Advanced Configuration and Power Interface",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 2,
+					"outdegree": 1,
+					"degree": 3,
+					"color": "rgb(223,137,255)",
+					"size": 11,
+					"x": -1208.3406,
+					"y": -1160.4247
+				}
+			},
+			{
+				"key": "it energy management",
+				"attributes": {
+					"label": "IT energy management",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 5,
+					"outdegree": 1,
+					"degree": 6,
+					"color": "rgb(223,137,255)",
+					"size": 20,
+					"x": -704.12103,
+					"y": -533.72296
+				}
+			},
+			{
+				"key": "low-power electronics",
+				"attributes": {
+					"label": "Low-power electronics",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 4,
+					"outdegree": 14,
+					"degree": 18,
+					"color": "rgb(223,137,255)",
+					"size": 56,
+					"x": -832.96405,
+					"y": -308.66293
+				}
+			},
+			{
+				"key": "moore's law",
+				"attributes": {
+					"label": "Moore's law",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(223,137,255)",
+					"size": 5,
+					"x": -1898.33,
+					"y": -1919.5
+				}
+			},
+			{
+				"key": "overclocking",
+				"attributes": {
+					"label": "Overclocking",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 3,
+					"outdegree": 2,
+					"degree": 5,
+					"color": "rgb(223,137,255)",
+					"size": 17,
+					"x": -471.60306,
+					"y": 4.105852
+				}
+			},
+			{
+				"key": "overvolting",
+				"attributes": {
+					"label": "Overvolting",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 3,
+					"outdegree": 6,
+					"degree": 9,
+					"color": "rgb(223,137,255)",
+					"size": 29,
+					"x": -1371.1885,
+					"y": -55.234848
+				}
+			},
+			{
+				"key": "performance per watt",
+				"attributes": {
+					"label": "Performance per watt",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 4,
+					"outdegree": 2,
+					"degree": 6,
+					"color": "rgb(223,137,255)",
+					"size": 20,
+					"x": -762.8411,
+					"y": -717.9219
+				}
+			},
+			{
+				"key": "power dissipation",
+				"attributes": {
+					"label": "Power dissipation",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(223,137,255)",
+					"size": 5,
+					"x": -194.50896,
+					"y": 36.223984
+				}
+			},
+			{
+				"key": "power management",
+				"attributes": {
+					"label": "Power management",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 3,
+					"outdegree": 6,
+					"degree": 9,
+					"color": "rgb(223,137,255)",
+					"size": 29,
+					"x": -1275.6846,
+					"y": -716.658
+				}
+			},
+			{
+				"key": "underclocking",
+				"attributes": {
+					"label": "Underclocking",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 4,
+					"outdegree": 0,
+					"degree": 4,
+					"color": "rgb(223,137,255)",
+					"size": 14,
+					"x": -631.68805,
+					"y": -184.13669
+				}
+			},
+			{
+				"key": "undervolting",
+				"attributes": {
+					"label": "Undervolting",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 4,
+					"indegree": 3,
+					"outdegree": 6,
+					"degree": 9,
+					"color": "rgb(223,137,255)",
+					"size": 29,
+					"x": -1347.4265,
+					"y": 33.833813
+				}
+			},
+			{
+				"key": "bounty hunter",
+				"attributes": {
+					"label": "Bounty hunter",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 1,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(0,189,148)",
+					"size": 5,
+					"x": -164.47452,
+					"y": 3061.7202
+				}
+			},
+			{
+				"key": "cyber-arms industry",
+				"attributes": {
+					"label": "Cyber-arms industry",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 1,
+					"indegree": 2,
+					"outdegree": 1,
+					"degree": 3,
+					"color": "rgb(0,189,148)",
+					"size": 11,
+					"x": -878.24207,
+					"y": 2916.9612
+				}
+			},
+			{
+				"key": "knuth reward check",
+				"attributes": {
+					"label": "Knuth reward check",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 1,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(0,189,148)",
+					"size": 5,
+					"x": -559.25415,
+					"y": 2830.9553
+				}
+			},
+			{
+				"key": "market for zero-day exploits",
+				"attributes": {
+					"label": "Market for zero-day exploits",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 1,
+					"indegree": 3,
+					"outdegree": 2,
+					"degree": 5,
+					"color": "rgb(0,189,148)",
+					"size": 17,
+					"x": -773.0751,
+					"y": 2920.5232
+				}
+			},
+			{
+				"key": "white hat (computer security)",
+				"attributes": {
+					"label": "White hat (computer security)",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 1,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(0,189,148)",
+					"size": 8,
+					"x": -572.4787,
+					"y": 2699.331
+				}
+			},
+			{
+				"key": "zerodium",
+				"attributes": {
+					"label": "Zerodium",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 1,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(0,189,148)",
+					"size": 8,
+					"x": -688.0745,
+					"y": 2853.5352
+				}
+			},
+			{
+				"key": "hazard (computer architecture)",
+				"attributes": {
+					"label": "Hazard (computer architecture)",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 2,
+					"outdegree": 7,
+					"degree": 9,
+					"color": "rgb(76,70,62)",
+					"size": 29,
+					"x": 1321.5132,
+					"y": 536.1539
+				}
+			},
+			{
+				"key": "feed forward (control)",
+				"attributes": {
+					"label": "Feed forward (control)",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(76,70,62)",
+					"size": 5,
+					"x": 1664.031,
+					"y": 507.91632
+				}
+			},
+			{
+				"key": "hazard pointer",
+				"attributes": {
+					"label": "Hazard pointer",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(76,70,62)",
+					"size": 8,
+					"x": 1386.889,
+					"y": 565.9155
+				}
+			},
+			{
+				"key": "speculative execution",
+				"attributes": {
+					"label": "Speculative execution",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 2,
+					"outdegree": 1,
+					"degree": 3,
+					"color": "rgb(76,70,62)",
+					"size": 11,
+					"x": 1309.235,
+					"y": 335.24234
+				}
+			},
+			{
+				"key": "branch delay slot",
+				"attributes": {
+					"label": "Branch delay slot",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 1,
+					"outdegree": 2,
+					"degree": 3,
+					"color": "rgb(76,70,62)",
+					"size": 11,
+					"x": 1004.9691,
+					"y": 471.46793
+				}
+			},
+			{
+				"key": "branch predication",
+				"attributes": {
+					"label": "Branch predication",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 3,
+					"outdegree": 3,
+					"degree": 6,
+					"color": "rgb(76,70,62)",
+					"size": 20,
+					"x": 1098.731,
+					"y": 310.22885
+				}
+			},
+			{
+				"key": "branch predictor",
+				"attributes": {
+					"label": "Branch predictor",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 6,
+					"indegree": 3,
+					"outdegree": 1,
+					"degree": 4,
+					"color": "rgb(76,70,62)",
+					"size": 14,
+					"x": 1305.405,
+					"y": 170.32043
+				}
+			},
+			{
+				"key": "circuit bending",
+				"attributes": {
+					"label": "Circuit bending",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 7,
+					"indegree": 8,
+					"outdegree": 10,
+					"degree": 18,
+					"color": "rgb(255,85,132)",
+					"size": 56,
+					"x": 165.94537,
+					"y": -71.75925
+				}
+			},
+			{
+				"key": "databending",
+				"attributes": {
+					"label": "Databending",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 4,
+					"outdegree": 1,
+					"degree": 5,
+					"color": "rgb(0,196,255)",
+					"size": 17,
+					"x": 878.111,
+					"y": -560.0659
+				}
+			},
+			{
+				"key": "glitch (music)",
+				"attributes": {
+					"label": "Glitch (music)",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 7,
+					"indegree": 3,
+					"outdegree": 5,
+					"degree": 8,
+					"color": "rgb(255,85,132)",
+					"size": 26,
+					"x": 57.706005,
+					"y": 14.4217825
+				}
+			},
+			{
+				"key": "new media art",
+				"attributes": {
+					"label": "New media art",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 10,
+					"outdegree": 15,
+					"degree": 25,
+					"color": "rgb(0,196,255)",
+					"size": 77,
+					"x": 502.0408,
+					"y": -1680.8977
+				}
+			},
+			{
+				"key": "postdigital",
+				"attributes": {
+					"label": "Postdigital",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 1,
+					"outdegree": 5,
+					"degree": 6,
+					"color": "rgb(0,196,255)",
+					"size": 20,
+					"x": 521.42957,
+					"y": -625.9088
+				}
+			},
+			{
+				"key": "wabi-sabi",
+				"attributes": {
+					"label": "Wabi-sabi",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 9,
+					"indegree": 2,
+					"outdegree": 6,
+					"degree": 8,
+					"color": "rgb(211,179,176)",
+					"size": 26,
+					"x": 2903.6997,
+					"y": 374.71332
+				}
+			},
+			{
+				"key": "vjing",
+				"attributes": {
+					"label": "VJing",
+					"level": 2,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 10,
+					"outdegree": 16,
+					"degree": 26,
+					"color": "rgb(255,136,5)",
+					"size": 80,
+					"x": 1632.4255,
+					"y": -1493.2803
+				}
+			},
+			{
+				"key": "atari punk console",
+				"attributes": {
+					"label": "Atari Punk Console",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 7,
+					"indegree": 2,
+					"outdegree": 1,
+					"degree": 3,
+					"color": "rgb(255,85,132)",
+					"size": 11,
+					"x": 169.5143,
+					"y": -155.387
+				}
+			},
+			{
+				"key": "casper electronics",
+				"attributes": {
+					"label": "Casper Electronics",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 7,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(255,85,132)",
+					"size": 8,
+					"x": 214.70685,
+					"y": 26.501715
+				}
+			},
+			{
+				"key": "electronic art music",
+				"attributes": {
+					"label": "Electronic art music",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 7,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(255,85,132)",
+					"size": 5,
+					"x": 505.64767,
+					"y": 13.598327
+				}
+			},
+			{
+				"key": "kraakdoos",
+				"attributes": {
+					"label": "Kraakdoos",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 7,
+					"indegree": 1,
+					"outdegree": 2,
+					"degree": 3,
+					"color": "rgb(255,85,132)",
+					"size": 11,
+					"x": 144.76808,
+					"y": -125.498436
+				}
+			},
+			{
+				"key": "mos technology sid",
+				"attributes": {
+					"label": "MOS Technology SID",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 7,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(255,85,132)",
+					"size": 5,
+					"x": 190.95985,
+					"y": -288.49326
+				}
+			},
+			{
+				"key": "music tech fest",
+				"attributes": {
+					"label": "Music Tech Fest",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 7,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(255,85,132)",
+					"size": 5,
+					"x": 310.6509,
+					"y": -111.17966
+				}
+			},
+			{
+				"key": "nime",
+				"attributes": {
+					"label": "NIME",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 7,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(255,85,132)",
+					"size": 5,
+					"x": 46.025055,
+					"y": -111.52931
+				}
+			},
+			{
+				"key": "no-fi",
+				"attributes": {
+					"label": "No-Fi",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 7,
+					"indegree": 2,
+					"outdegree": 0,
+					"degree": 2,
+					"color": "rgb(255,85,132)",
+					"size": 8,
+					"x": 106.43589,
+					"y": 103.85129
+				}
+			},
+			{
+				"key": "noise music",
+				"attributes": {
+					"label": "Noise music",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 7,
+					"indegree": 2,
+					"outdegree": 2,
+					"degree": 4,
+					"color": "rgb(255,85,132)",
+					"size": 14,
+					"x": -0.0008707309,
+					"y": 0.004921341
+				}
+			},
+			{
+				"key": "clicks & cuts series",
+				"attributes": {
+					"label": "Clicks & Cuts Series",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 7,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(255,85,132)",
+					"size": 5,
+					"x": -6.165597,
+					"y": 221.70847
+				}
+			},
+			{
+				"key": "generative music",
+				"attributes": {
+					"label": "Generative music",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 7,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(255,85,132)",
+					"size": 5,
+					"x": -58.638664,
+					"y": -124.11397
+				}
+			},
+			{
+				"key": "microsound",
+				"attributes": {
+					"label": "Microsound",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 7,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(255,85,132)",
+					"size": 8,
+					"x": -7.1275563,
+					"y": 89.51852
+				}
+			},
+			{
+				"key": "video art",
+				"attributes": {
+					"label": "Video art",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 3,
+					"outdegree": 5,
+					"degree": 8,
+					"color": "rgb(255,136,5)",
+					"size": 26,
+					"x": 1257.8773,
+					"y": -2105.517
+				}
+			},
+			{
+				"key": "music visualization",
+				"attributes": {
+					"label": "Music visualization",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 4,
+					"outdegree": 2,
+					"degree": 6,
+					"color": "rgb(255,136,5)",
+					"size": 20,
+					"x": 1452.3578,
+					"y": -2081.571
+				}
+			},
+			{
+				"key": "video scratching",
+				"attributes": {
+					"label": "Video scratching",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 2,
+					"outdegree": 4,
+					"degree": 6,
+					"color": "rgb(255,136,5)",
+					"size": 20,
+					"x": 1865.7764,
+					"y": -1415.9598
+				}
+			},
+			{
+				"key": "live event visual amplification",
+				"attributes": {
+					"label": "Live event visual amplification",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(255,136,5)",
+					"size": 5,
+					"x": 2110.73,
+					"y": -603.79755
+				}
+			},
+			{
+				"key": "video synthesizer",
+				"attributes": {
+					"label": "Video synthesizer",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 2,
+					"outdegree": 2,
+					"degree": 4,
+					"color": "rgb(255,136,5)",
+					"size": 14,
+					"x": 1388.3932,
+					"y": -1961.5555
+				}
+			},
+			{
+				"key": "dvj",
+				"attributes": {
+					"label": "DVJ",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(255,136,5)",
+					"size": 8,
+					"x": 1576.4333,
+					"y": -1476.0087
+				}
+			},
+			{
+				"key": "scratch video",
+				"attributes": {
+					"label": "Scratch Video",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 3,
+					"outdegree": 3,
+					"degree": 6,
+					"color": "rgb(255,136,5)",
+					"size": 20,
+					"x": 1771.081,
+					"y": -1446.3976
+				}
+			},
+			{
+				"key": "found footage (appropriation)",
+				"attributes": {
+					"label": "Found footage (appropriation)",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 2,
+					"outdegree": 3,
+					"degree": 5,
+					"color": "rgb(255,136,5)",
+					"size": 17,
+					"x": 1894.5374,
+					"y": -1737.4948
+				}
+			},
+			{
+				"key": "mashup (video)",
+				"attributes": {
+					"label": "Mashup (video)",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 2,
+					"outdegree": 2,
+					"degree": 4,
+					"color": "rgb(255,136,5)",
+					"size": 14,
+					"x": 1770.7218,
+					"y": -1609.0074
+				}
+			},
+			{
+				"key": "remix culture",
+				"attributes": {
+					"label": "Remix culture",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 7,
+					"outdegree": 1,
+					"degree": 8,
+					"color": "rgb(255,136,5)",
+					"size": 26,
+					"x": 1892.4366,
+					"y": -1530.2416
+				}
+			},
+			{
+				"key": "vidding",
+				"attributes": {
+					"label": "Vidding",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 1,
+					"outdegree": 5,
+					"degree": 6,
+					"color": "rgb(255,136,5)",
+					"size": 20,
+					"x": 2126.1104,
+					"y": -1531.3634
+				}
+			},
+			{
+				"key": "culture jamming",
+				"attributes": {
+					"label": "Culture jamming",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 6,
+					"outdegree": 0,
+					"degree": 6,
+					"color": "rgb(255,136,5)",
+					"size": 20,
+					"x": 2003.5521,
+					"y": -1277.7993
+				}
+			},
+			{
+				"key": "datamoshing",
+				"attributes": {
+					"label": "Datamoshing",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(0,196,255)",
+					"size": 8,
+					"x": 1063.0651,
+					"y": -585.4464
+				}
+			},
+			{
+				"key": "vj (media personality)",
+				"attributes": {
+					"label": "VJ (media personality)",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(255,136,5)",
+					"size": 8,
+					"x": 1547.6443,
+					"y": -1361.765
+				}
+			},
+			{
+				"key": "art/media",
+				"attributes": {
+					"label": "ART/MEDIA",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(0,196,255)",
+					"size": 8,
+					"x": 389.5202,
+					"y": -2344.4656
+				}
+			},
+			{
+				"key": "digital art",
+				"attributes": {
+					"label": "Digital art",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 6,
+					"outdegree": 2,
+					"degree": 8,
+					"color": "rgb(0,196,255)",
+					"size": 26,
+					"x": 37.467655,
+					"y": -1715.4014
+				}
+			},
+			{
+				"key": "digital media",
+				"attributes": {
+					"label": "Digital media",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 2,
+					"outdegree": 0,
+					"degree": 2,
+					"color": "rgb(0,196,255)",
+					"size": 8,
+					"x": -435.50308,
+					"y": -2721.8486
+				}
+			},
+			{
+				"key": "electronic art",
+				"attributes": {
+					"label": "Electronic art",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 2,
+					"outdegree": 4,
+					"degree": 6,
+					"color": "rgb(0,196,255)",
+					"size": 20,
+					"x": -146.18471,
+					"y": -1949.5367
+				}
+			},
+			{
+				"key": "experiments in art and technology",
+				"attributes": {
+					"label": "Experiments in Art and Technology",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 1,
+					"outdegree": 2,
+					"degree": 3,
+					"color": "rgb(0,196,255)",
+					"size": 11,
+					"x": 117.68331,
+					"y": -1863.8546
+				}
+			},
+			{
+				"key": "interactive film",
+				"attributes": {
+					"label": "Interactive film",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 8,
+					"indegree": 2,
+					"outdegree": 0,
+					"degree": 2,
+					"color": "rgb(255,136,5)",
+					"size": 8,
+					"x": 306.5041,
+					"y": -2971.2783
+				}
+			},
+			{
+				"key": "interactive media",
+				"attributes": {
+					"label": "Interactive media",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 1,
+					"outdegree": 3,
+					"degree": 4,
+					"color": "rgb(0,196,255)",
+					"size": 14,
+					"x": -143.24568,
+					"y": -2692.3425
+				}
+			},
+			{
+				"key": "intermedia",
+				"attributes": {
+					"label": "Intermedia",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 3,
+					"outdegree": 0,
+					"degree": 3,
+					"color": "rgb(0,196,255)",
+					"size": 11,
+					"x": 298.26013,
+					"y": -1921.6761
+				}
+			},
+			{
+				"key": "net.art",
+				"attributes": {
+					"label": "Net.art",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(0,196,255)",
+					"size": 5,
+					"x": 302.27255,
+					"y": -1109.9418
+				}
+			},
+			{
+				"key": "new media artist",
+				"attributes": {
+					"label": "New media artist",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(0,196,255)",
+					"size": 8,
+					"x": 600.6695,
+					"y": -1506.3584
+				}
+			},
+			{
+				"key": "new media art preservation",
+				"attributes": {
+					"label": "New media art preservation",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 1,
+					"outdegree": 2,
+					"degree": 3,
+					"color": "rgb(0,196,255)",
+					"size": 11,
+					"x": 182.58342,
+					"y": -1400.3644
+				}
+			},
+			{
+				"key": "clinamen",
+				"attributes": {
+					"label": "Clinamen",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 9,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(211,179,176)",
+					"size": 5,
+					"x": 2927.5667,
+					"y": 754.4067
+				}
+			},
+			{
+				"key": "higashiyama bunka",
+				"attributes": {
+					"label": "Higashiyama Bunka",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 9,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(211,179,176)",
+					"size": 5,
+					"x": 2738.0806,
+					"y": 214.83977
+				}
+			},
+			{
+				"key": "muromachi period",
+				"attributes": {
+					"label": "Muromachi period",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 9,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(211,179,176)",
+					"size": 5,
+					"x": 2725.8235,
+					"y": 469.43073
+				}
+			},
+			{
+				"key": "mono no aware",
+				"attributes": {
+					"label": "Mono no aware",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 9,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(211,179,176)",
+					"size": 8,
+					"x": 3421.667,
+					"y": 106.54078
+				}
+			},
+			{
+				"key": "teaism",
+				"attributes": {
+					"label": "Teaism",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 9,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(211,179,176)",
+					"size": 5,
+					"x": 2950.2688,
+					"y": 243.69334
+				}
+			},
+			{
+				"key": "kintsugi",
+				"attributes": {
+					"label": "Kintsugi",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 9,
+					"indegree": 1,
+					"outdegree": 0,
+					"degree": 1,
+					"color": "rgb(211,179,176)",
+					"size": 5,
+					"x": 3106.1445,
+					"y": 1156.6704
+				}
+			},
+			{
+				"key": "compression artifact",
+				"attributes": {
+					"label": "Compression artifact",
+					"level": 3,
+					"seed": false,
+					"modularity-class": 0,
+					"indegree": 1,
+					"outdegree": 1,
+					"degree": 2,
+					"color": "rgb(0,196,255)",
+					"size": 8,
+					"x": 985.57837,
+					"y": -549.0634
+				}
+			}
+		],
+		"edges": [
+			{
+				"source": "glitch",
+				"target": "glitch art",
+				"key": "0",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch",
+				"target": "glitch removal",
+				"key": "1",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch",
+				"target": "glitching",
+				"key": "2",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch",
+				"target": "hazard (logic)",
+				"key": "3",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch",
+				"target": "software bug",
+				"key": "4",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software bug",
+				"target": "anti-pattern",
+				"key": "5",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software bug",
+				"target": "bug bounty program",
+				"key": "6",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software bug",
+				"target": "glitch removal",
+				"key": "7",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software bug",
+				"target": "iso/iec 9126",
+				"key": "8",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software bug",
+				"target": "racetrack problem",
+				"key": "10",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software bug",
+				"target": "software defect indicator",
+				"key": "12",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software bug",
+				"target": "software regression",
+				"key": "13",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software bug",
+				"target": "software rot",
+				"key": "14",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software rot",
+				"target": "code smell",
+				"key": "16",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software rot",
+				"target": "dependency hell",
+				"key": "17",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software rot",
+				"target": "software bloat",
+				"key": "18",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software rot",
+				"target": "software brittleness",
+				"key": "19",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software rot",
+				"target": "software entropy",
+				"key": "20",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software entropy",
+				"target": "software bloat",
+				"key": "22",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software entropy",
+				"target": "software brittleness",
+				"key": "23",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software entropy",
+				"target": "software rot",
+				"key": "24",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software brittleness",
+				"target": "software entropy",
+				"key": "30",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software brittleness",
+				"target": "software rot",
+				"key": "31",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software bloat",
+				"target": "software rot",
+				"key": "38",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "code smell",
+				"target": "design smell",
+				"key": "48",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "code smell",
+				"target": "anti-pattern",
+				"key": "49",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "code smell",
+				"target": "software rot",
+				"key": "50",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software regression",
+				"target": "software rot",
+				"key": "51",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software defect indicator",
+				"target": "cyclomatic complexity",
+				"key": "52",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software defect indicator",
+				"target": "anti-pattern",
+				"key": "53",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software defect indicator",
+				"target": "computer program",
+				"key": "54",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software defect indicator",
+				"target": "computer programming",
+				"key": "55",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software defect indicator",
+				"target": "control flow",
+				"key": "56",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software defect indicator",
+				"target": "software engineering",
+				"key": "57",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "control flow",
+				"target": "cyclomatic complexity",
+				"key": "68",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "computer program",
+				"target": "software bug",
+				"key": "96",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "anti-pattern",
+				"target": "code smell",
+				"key": "97",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "anti-pattern",
+				"target": "design smell",
+				"key": "98",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "anti-pattern",
+				"target": "software peter principle",
+				"key": "99",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "anti-pattern",
+				"target": "capability immaturity model",
+				"key": "100",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "anti-pattern",
+				"target": "iso 29110",
+				"key": "101",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cyclomatic complexity",
+				"target": "computer program",
+				"key": "105",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cyclomatic complexity",
+				"target": "computer programming",
+				"key": "106",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cyclomatic complexity",
+				"target": "control flow",
+				"key": "107",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cyclomatic complexity",
+				"target": "software engineering",
+				"key": "112",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "racetrack problem",
+				"target": "race condition",
+				"key": "117",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "racetrack problem",
+				"target": "concurrency control",
+				"key": "118",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "racetrack problem",
+				"target": "deadlock",
+				"key": "119",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "racetrack problem",
+				"target": "synchronization",
+				"key": "120",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "racetrack problem",
+				"target": "therac-25",
+				"key": "121",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "synchronization",
+				"target": "concurrency control",
+				"key": "153",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "synchronization",
+				"target": "race condition",
+				"key": "155",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "deadlock",
+				"target": "linearizability",
+				"key": "174",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "deadlock",
+				"target": "race condition",
+				"key": "178",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "deadlock",
+				"target": "synchronization (computer science)",
+				"key": "182",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "concurrency control",
+				"target": "linearizability",
+				"key": "183",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "race condition",
+				"target": "concurrency control",
+				"key": "190",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "race condition",
+				"target": "deadlock",
+				"key": "191",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "race condition",
+				"target": "hazard (logic)",
+				"key": "192",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "race condition",
+				"target": "linearizability",
+				"key": "193",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "race condition",
+				"target": "racetrack problem",
+				"key": "194",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "race condition",
+				"target": "synchronization (computer science)",
+				"key": "195",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "race condition",
+				"target": "time of check to time of use",
+				"key": "196",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "iso/iec 9126",
+				"target": "iso 9000",
+				"key": "197",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "iso/iec 9126",
+				"target": "verification and validation",
+				"key": "198",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "iso/iec 9126",
+				"target": "non-functional requirement",
+				"key": "199",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "iso/iec 9126",
+				"target": "squale",
+				"key": "200",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "iso/iec 9126",
+				"target": "iso/iec jtc 1/sc 7",
+				"key": "201",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "squale",
+				"target": "iso/iec 9126",
+				"key": "207",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "non-functional requirement",
+				"target": "iso/iec 9126",
+				"key": "211",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "iso 9000",
+				"target": "verification and validation",
+				"key": "247",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch removal",
+				"target": "filter capacitor",
+				"key": "249",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch removal",
+				"target": "operand isolation",
+				"key": "250",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch removal",
+				"target": "cpu power dissipation",
+				"key": "251",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch removal",
+				"target": "dynamic voltage scaling",
+				"key": "252",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch removal",
+				"target": "clock gating",
+				"key": "253",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch removal",
+				"target": "bus encoding",
+				"key": "254",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch removal",
+				"target": "rechargeable battery",
+				"key": "255",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "rechargeable battery",
+				"target": "battery pack",
+				"key": "256",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "rechargeable battery",
+				"target": "comparison of battery types",
+				"key": "257",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "rechargeable battery",
+				"target": "energy storage",
+				"key": "258",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "rechargeable battery",
+				"target": "metal–air electrochemical cell",
+				"key": "259",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "rechargeable battery",
+				"target": "search for the super battery (film)",
+				"key": "260",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "bus encoding",
+				"target": "gray code addressing",
+				"key": "261",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "bus encoding",
+				"target": "cpu power dissipation",
+				"key": "262",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "bus encoding",
+				"target": "low power electronics",
+				"key": "263",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "bus encoding",
+				"target": "glitch removal",
+				"key": "264",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "bus encoding",
+				"target": "green computing",
+				"key": "265",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "clock gating",
+				"target": "power gating",
+				"key": "266",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "clock gating",
+				"target": "glitch removal",
+				"key": "267",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "clock gating",
+				"target": "dynamic frequency scaling",
+				"key": "268",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "clock gating",
+				"target": "autonomous peripheral operation",
+				"key": "269",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "dynamic voltage scaling",
+				"target": "power gating",
+				"key": "270",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "dynamic voltage scaling",
+				"target": "power–delay product",
+				"key": "271",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "dynamic voltage scaling",
+				"target": "energy–delay product",
+				"key": "272",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "dynamic voltage scaling",
+				"target": "dynamic frequency scaling",
+				"key": "273",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "dynamic voltage scaling",
+				"target": "switched-mode power supply applications",
+				"key": "274",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "dynamic voltage scaling",
+				"target": "switching energy",
+				"key": "275",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "autonomous peripheral operation",
+				"key": "276",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "advanced configuration and power interface",
+				"key": "277",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "dynamic frequency scaling",
+				"key": "278",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "dynamic voltage scaling",
+				"key": "279",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "glitch removal",
+				"key": "280",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "green computing",
+				"key": "281",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "it energy management",
+				"key": "282",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "low-power electronics",
+				"key": "283",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "moore's law",
+				"key": "284",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "overclocking",
+				"key": "285",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "overvolting",
+				"key": "286",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "performance per watt",
+				"key": "287",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "power dissipation",
+				"key": "289",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "power management",
+				"key": "290",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "underclocking",
+				"key": "291",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cpu power dissipation",
+				"target": "undervolting",
+				"key": "292",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "operand isolation",
+				"target": "glitch removal",
+				"key": "293",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "operand isolation",
+				"target": "clock gating",
+				"key": "294",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "filter capacitor",
+				"target": "glitch removal",
+				"key": "295",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "bug bounty program",
+				"target": "bounty hunter",
+				"key": "296",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "bug bounty program",
+				"target": "cyber-arms industry",
+				"key": "297",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "bug bounty program",
+				"target": "knuth reward check",
+				"key": "298",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "bug bounty program",
+				"target": "market for zero-day exploits",
+				"key": "299",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "bug bounty program",
+				"target": "white hat (computer security)",
+				"key": "300",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "bug bounty program",
+				"target": "zerodium",
+				"key": "301",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "zerodium",
+				"target": "market for zero-day exploits",
+				"key": "302",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "white hat (computer security)",
+				"target": "bug bounty program",
+				"key": "303",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "market for zero-day exploits",
+				"target": "bug bounty program",
+				"key": "308",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "market for zero-day exploits",
+				"target": "cyber-arms industry",
+				"key": "311",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "cyber-arms industry",
+				"target": "market for zero-day exploits",
+				"key": "321",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "iso 29110",
+				"target": "anti-pattern",
+				"key": "335",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "iso 29110",
+				"target": "capability immaturity model",
+				"key": "336",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "capability immaturity model",
+				"target": "anti-pattern",
+				"key": "337",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "capability immaturity model",
+				"target": "iso 29110",
+				"key": "340",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "software peter principle",
+				"target": "anti-pattern",
+				"key": "343",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "design smell",
+				"target": "code smell",
+				"key": "349",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "design smell",
+				"target": "anti-pattern",
+				"key": "350",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "design smell",
+				"target": "software rot",
+				"key": "351",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "hazard (logic)",
+				"target": "hazard (computer architecture)",
+				"key": "353",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "hazard (logic)",
+				"target": "race condition",
+				"key": "354",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "time of check to time of use",
+				"target": "linearizability",
+				"key": "355",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "linearizability",
+				"target": "time of check to time of use",
+				"key": "362",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "hazard (computer architecture)",
+				"target": "feed forward (control)",
+				"key": "363",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "hazard (computer architecture)",
+				"target": "hazard (logic)",
+				"key": "366",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "hazard (computer architecture)",
+				"target": "hazard pointer",
+				"key": "367",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "hazard (computer architecture)",
+				"target": "speculative execution",
+				"key": "368",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "hazard (computer architecture)",
+				"target": "branch delay slot",
+				"key": "369",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "hazard (computer architecture)",
+				"target": "branch predication",
+				"key": "370",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "hazard (computer architecture)",
+				"target": "branch predictor",
+				"key": "371",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "branch predictor",
+				"target": "branch predication",
+				"key": "373",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "branch predication",
+				"target": "branch predictor",
+				"key": "381",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "branch predication",
+				"target": "control flow",
+				"key": "382",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "branch predication",
+				"target": "speculative execution",
+				"key": "388",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "branch delay slot",
+				"target": "control flow",
+				"key": "391",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "branch delay slot",
+				"target": "branch predication",
+				"key": "393",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "speculative execution",
+				"target": "branch predictor",
+				"key": "394",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "hazard pointer",
+				"target": "hazard (computer architecture)",
+				"key": "399",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitching",
+				"target": "circuit bending",
+				"key": "404",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitching",
+				"target": "glitch",
+				"key": "405",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch art",
+				"target": "circuit bending",
+				"key": "406",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch art",
+				"target": "databending",
+				"key": "407",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch art",
+				"target": "glitch",
+				"key": "408",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch art",
+				"target": "glitch (music)",
+				"key": "409",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch art",
+				"target": "glitching",
+				"key": "410",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch art",
+				"target": "new media art",
+				"key": "411",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch art",
+				"target": "postdigital",
+				"key": "412",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch art",
+				"target": "wabi-sabi",
+				"key": "413",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch art",
+				"target": "vjing",
+				"key": "414",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "circuit bending",
+				"target": "atari punk console",
+				"key": "416",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "circuit bending",
+				"target": "casper electronics",
+				"key": "418",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "circuit bending",
+				"target": "electronic art music",
+				"key": "420",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "circuit bending",
+				"target": "glitch (music)",
+				"key": "421",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "circuit bending",
+				"target": "kraakdoos",
+				"key": "422",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "circuit bending",
+				"target": "mos technology sid",
+				"key": "424",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "circuit bending",
+				"target": "music tech fest",
+				"key": "425",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "circuit bending",
+				"target": "nime",
+				"key": "426",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "circuit bending",
+				"target": "no-fi",
+				"key": "427",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "circuit bending",
+				"target": "noise music",
+				"key": "428",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "noise music",
+				"target": "circuit bending",
+				"key": "430",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "noise music",
+				"target": "no-fi",
+				"key": "435",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "kraakdoos",
+				"target": "atari punk console",
+				"key": "455",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "kraakdoos",
+				"target": "circuit bending",
+				"key": "456",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch (music)",
+				"target": "circuit bending",
+				"key": "457",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch (music)",
+				"target": "clicks & cuts series",
+				"key": "458",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch (music)",
+				"target": "generative music",
+				"key": "459",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch (music)",
+				"target": "microsound",
+				"key": "460",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "glitch (music)",
+				"target": "noise music",
+				"key": "461",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "casper electronics",
+				"target": "circuit bending",
+				"key": "474",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "atari punk console",
+				"target": "circuit bending",
+				"key": "477",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "search for the super battery (film)",
+				"target": "rechargeable battery",
+				"key": "486",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "green computing",
+				"target": "it energy management",
+				"key": "521",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low power electronics",
+				"target": "cpu power dissipation",
+				"key": "536",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low power electronics",
+				"target": "it energy management",
+				"key": "540",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low power electronics",
+				"target": "performance per watt",
+				"key": "541",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low power electronics",
+				"target": "power management",
+				"key": "542",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low power electronics",
+				"target": "green computing",
+				"key": "543",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low power electronics",
+				"target": "dynamic frequency scaling",
+				"key": "544",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low power electronics",
+				"target": "overclocking",
+				"key": "545",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low power electronics",
+				"target": "underclocking",
+				"key": "546",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low power electronics",
+				"target": "dynamic voltage scaling",
+				"key": "547",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low power electronics",
+				"target": "overvolting",
+				"key": "548",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low power electronics",
+				"target": "undervolting",
+				"key": "549",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low power electronics",
+				"target": "operand isolation",
+				"key": "550",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low power electronics",
+				"target": "glitch removal",
+				"key": "551",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low power electronics",
+				"target": "autonomous peripheral operation",
+				"key": "552",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "autonomous peripheral operation",
+				"target": "clock gating",
+				"key": "559",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "autonomous peripheral operation",
+				"target": "power gating",
+				"key": "561",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "autonomous peripheral operation",
+				"target": "cpu power dissipation",
+				"key": "562",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "autonomous peripheral operation",
+				"target": "low-power electronics",
+				"key": "563",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "dynamic frequency scaling",
+				"target": "dynamic voltage scaling",
+				"key": "566",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "dynamic frequency scaling",
+				"target": "clock gating",
+				"key": "567",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "power gating",
+				"target": "dynamic voltage scaling",
+				"key": "576",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "power gating",
+				"target": "autonomous peripheral operation",
+				"key": "578",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "undervolting",
+				"target": "power gating",
+				"key": "596",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "undervolting",
+				"target": "power–delay product",
+				"key": "597",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "undervolting",
+				"target": "energy–delay product",
+				"key": "598",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "undervolting",
+				"target": "dynamic frequency scaling",
+				"key": "599",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "undervolting",
+				"target": "switched-mode power supply applications",
+				"key": "600",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "undervolting",
+				"target": "switching energy",
+				"key": "601",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "power management",
+				"target": "advanced configuration and power interface",
+				"key": "605",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "power management",
+				"target": "cpu power dissipation",
+				"key": "610",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "power management",
+				"target": "dynamic frequency scaling",
+				"key": "611",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "power management",
+				"target": "dynamic voltage scaling",
+				"key": "612",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "power management",
+				"target": "green computing",
+				"key": "615",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "power management",
+				"target": "low-power electronics",
+				"key": "616",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "performance per watt",
+				"target": "it energy management",
+				"key": "635",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "performance per watt",
+				"target": "low-power electronics",
+				"key": "638",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "overvolting",
+				"target": "power gating",
+				"key": "640",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "overvolting",
+				"target": "power–delay product",
+				"key": "641",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "overvolting",
+				"target": "energy–delay product",
+				"key": "642",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "overvolting",
+				"target": "dynamic frequency scaling",
+				"key": "643",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "overvolting",
+				"target": "switched-mode power supply applications",
+				"key": "644",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "overvolting",
+				"target": "switching energy",
+				"key": "645",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "overclocking",
+				"target": "dynamic voltage scaling",
+				"key": "649",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "overclocking",
+				"target": "underclocking",
+				"key": "653",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low-power electronics",
+				"target": "cpu power dissipation",
+				"key": "678",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low-power electronics",
+				"target": "it energy management",
+				"key": "682",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low-power electronics",
+				"target": "performance per watt",
+				"key": "683",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low-power electronics",
+				"target": "power management",
+				"key": "684",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low-power electronics",
+				"target": "green computing",
+				"key": "685",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low-power electronics",
+				"target": "dynamic frequency scaling",
+				"key": "686",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low-power electronics",
+				"target": "overclocking",
+				"key": "687",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low-power electronics",
+				"target": "underclocking",
+				"key": "688",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low-power electronics",
+				"target": "dynamic voltage scaling",
+				"key": "689",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low-power electronics",
+				"target": "overvolting",
+				"key": "690",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low-power electronics",
+				"target": "undervolting",
+				"key": "691",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low-power electronics",
+				"target": "operand isolation",
+				"key": "692",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low-power electronics",
+				"target": "glitch removal",
+				"key": "693",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "low-power electronics",
+				"target": "autonomous peripheral operation",
+				"key": "694",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "it energy management",
+				"target": "performance per watt",
+				"key": "696",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "advanced configuration and power interface",
+				"target": "green computing",
+				"key": "700",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "video art",
+				"key": "707",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "glitch art",
+				"key": "708",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "music visualization",
+				"key": "709",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "video scratching",
+				"key": "710",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "live event visual amplification",
+				"key": "712",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "video synthesizer",
+				"key": "713",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "dvj",
+				"key": "714",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "scratch video",
+				"key": "715",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "found footage (appropriation)",
+				"key": "716",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "mashup (video)",
+				"key": "717",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "remix culture",
+				"key": "718",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "vidding",
+				"key": "719",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "culture jamming",
+				"key": "720",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "datamoshing",
+				"key": "721",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "new media art",
+				"key": "722",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vjing",
+				"target": "vj (media personality)",
+				"key": "723",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vj (media personality)",
+				"target": "vjing",
+				"key": "726",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "art/media",
+				"key": "727",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "culture jamming",
+				"key": "731",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "digital art",
+				"key": "732",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "digital media",
+				"key": "733",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "electronic art",
+				"key": "736",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "experiments in art and technology",
+				"key": "739",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "glitch art",
+				"key": "740",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "interactive film",
+				"key": "741",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "interactive media",
+				"key": "742",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "intermedia",
+				"key": "743",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "net.art",
+				"key": "745",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "new media artist",
+				"key": "748",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "new media art preservation",
+				"key": "750",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "remix culture",
+				"key": "752",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art",
+				"target": "vjing",
+				"key": "753",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "datamoshing",
+				"target": "databending",
+				"key": "755",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "video scratching",
+				"target": "vjing",
+				"key": "770",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "video scratching",
+				"target": "scratch video",
+				"key": "772",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "video scratching",
+				"target": "culture jamming",
+				"key": "773",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "video scratching",
+				"target": "remix culture",
+				"key": "774",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vidding",
+				"target": "found footage (appropriation)",
+				"key": "780",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vidding",
+				"target": "vjing",
+				"key": "782",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vidding",
+				"target": "culture jamming",
+				"key": "783",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vidding",
+				"target": "remix culture",
+				"key": "784",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "vidding",
+				"target": "video scratching",
+				"key": "785",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "remix culture",
+				"target": "culture jamming",
+				"key": "786",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "mashup (video)",
+				"target": "remix culture",
+				"key": "791",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "mashup (video)",
+				"target": "vjing",
+				"key": "792",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "found footage (appropriation)",
+				"target": "mashup (video)",
+				"key": "795",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "found footage (appropriation)",
+				"target": "vjing",
+				"key": "798",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "found footage (appropriation)",
+				"target": "remix culture",
+				"key": "800",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "scratch video",
+				"target": "culture jamming",
+				"key": "801",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "scratch video",
+				"target": "remix culture",
+				"key": "803",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "scratch video",
+				"target": "vjing",
+				"key": "804",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "dvj",
+				"target": "vjing",
+				"key": "805",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "video synthesizer",
+				"target": "music visualization",
+				"key": "808",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "video synthesizer",
+				"target": "video art",
+				"key": "809",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "music visualization",
+				"target": "video art",
+				"key": "829",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "music visualization",
+				"target": "vjing",
+				"key": "830",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "video art",
+				"target": "interactive film",
+				"key": "834",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "video art",
+				"target": "music visualization",
+				"key": "836",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "video art",
+				"target": "new media art",
+				"key": "837",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "video art",
+				"target": "scratch video",
+				"key": "840",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "video art",
+				"target": "video synthesizer",
+				"key": "846",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "wabi-sabi",
+				"target": "clinamen",
+				"key": "849",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "wabi-sabi",
+				"target": "higashiyama bunka",
+				"key": "850",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "wabi-sabi",
+				"target": "muromachi period",
+				"key": "851",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "wabi-sabi",
+				"target": "mono no aware",
+				"key": "853",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "wabi-sabi",
+				"target": "teaism",
+				"key": "855",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "wabi-sabi",
+				"target": "kintsugi",
+				"key": "857",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "mono no aware",
+				"target": "wabi-sabi",
+				"key": "880",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "postdigital",
+				"target": "circuit bending",
+				"key": "897",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "postdigital",
+				"target": "databending",
+				"key": "898",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "postdigital",
+				"target": "digital art",
+				"key": "899",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "postdigital",
+				"target": "glitch",
+				"key": "900",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "postdigital",
+				"target": "new media art",
+				"key": "902",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "digital art",
+				"target": "electronic art",
+				"key": "906",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "digital art",
+				"target": "new media art",
+				"key": "908",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "databending",
+				"target": "compression artifact",
+				"key": "910",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art preservation",
+				"target": "digital art",
+				"key": "913",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media art preservation",
+				"target": "new media art",
+				"key": "917",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "new media artist",
+				"target": "new media art",
+				"key": "920",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "interactive media",
+				"target": "digital art",
+				"key": "932",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "interactive media",
+				"target": "digital media",
+				"key": "933",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "interactive media",
+				"target": "new media art",
+				"key": "947",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "experiments in art and technology",
+				"target": "intermedia",
+				"key": "963",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "experiments in art and technology",
+				"target": "digital art",
+				"key": "965",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "electronic art",
+				"target": "digital art",
+				"key": "979",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "electronic art",
+				"target": "intermedia",
+				"key": "989",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "electronic art",
+				"target": "music visualization",
+				"key": "991",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "electronic art",
+				"target": "new media art",
+				"key": "992",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "art/media",
+				"target": "new media art",
+				"key": "1003",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "microsound",
+				"target": "glitch (music)",
+				"key": "1008",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "compression artifact",
+				"target": "databending",
+				"key": "1026",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			}
+		]
+	}
+}
